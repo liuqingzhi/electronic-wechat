@@ -69,9 +69,9 @@ class SettingsWindow {
   }
 
   registerLocalShortcut() {
-    electronLocalShortcut.register(this.settingsWindow, 'Esc', () => {
+    /*electronLocalShortcut.register(this.settingsWindow, 'Esc', () => {
       this.settingsWindow.close();
-    });
+    });*/
   }
 
   unregisterLocalShortCut() {
